@@ -480,6 +480,7 @@ button::-moz-focus-inner {
 }
 .tm-rf5.tm-lh-title {
   line-height: 1.1586015;
+  padding-top: 10%;
   line-height: var(--line-height-title-5);
 }
 .tm-rf6 {
@@ -2888,7 +2889,7 @@ a:hover .bottom-wrapper {
 .nav li {
   list-style-type: none;
 }
-.nav span{
+.nav span {
   font-size: 1.4rem;
 }
 .nav .logo {
@@ -5142,4 +5143,21 @@ a:hover .desc[data-v-206e3d94] {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
+}
+.tooltip-box {
+  background-color: rgba(0, 0, 0, 0.407);
+  padding-bottom: 10px;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.tooltip-text {
+  z-index: 10000;
+  top: 0 !important;
+  padding:0;
+  font-weight: 400;
+}
+
+.tooltip-visible{
+  opacity: 1;
 }

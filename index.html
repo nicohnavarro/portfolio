@@ -24,7 +24,7 @@
                           aria-current="page"
                           class="logo tm-title nuxt-link-exact-active nuxt-link-active"
                         >
-                          <span class="sr-only">Cosmos</span></a
+                          <span class="sr-only">NickNava</span></a
                         >
                       </li>
                       <li class="vsm-section vsm-section_menu vsm-mob-hide">
@@ -753,12 +753,17 @@
                       </svg>
                     </div>
                     <div class="layer layer-front" data-v-44602fac>
+                      
                       <div
                         strength="40"
                         class="planet planet-terra"
                         data-v-44602fac
+                        onclick="window.open('https://motech-electro.herokuapp.com/');"
                       >
-                        <div data-v-44602fac>
+                      <div class="tooltip-box" id="tooltip-terra">
+                        <span class="tooltip-text" >E-commerce with Angular</span>
+                      </div>
+                        <div data-v-44602fac id="planet-terra">
                           <svg
                             width="156"
                             height="156"
@@ -944,16 +949,20 @@
                         class="planet planet-bitcoin"
                         data-v-44602fac
                       >
-                        <div data-v-44602fac>
-                          <svg
-                            width="179"
-                            height="178"
-                            viewBox="0 0 179 178"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            data-v-44602fac
-                          >
-                            <g filter="url(#filter0_i-141938)" data-v-44602fac>
+                      <div class="tooltip-box" id="tooltip-2">
+                        <span class="tooltip-text" >Game Room Angular + Firebase</span>
+                      </div>
+                      <div data-v-44602fac id="planet-2">
+                        <svg
+                        width="179"
+                        height="178"
+                        viewBox="0 0 179 178"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        data-v-44602fac
+                        >
+                      
+                        <g filter="url(#filter0_i-141938)" data-v-44602fac>
                               <path
                                 d="M53.2509 170.25C98.1603 190.11 150.666 169.803 170.526 124.894C190.386 79.9846 170.08 27.4786 125.17 7.6186C80.261 -12.2414 27.755 8.06511 7.89497 52.9745C-11.9651 97.8839 8.34148 150.39 53.2509 170.25Z"
                                 fill="url(#paint0_radial-603119)"
@@ -1171,6 +1180,7 @@
                         class="planet planet-cryptocom"
                         data-v-44602fac
                       >
+                      <span class="tooltip-text" style="z-index: 1000;opacity: 0;">Some app</span>
                         <div data-v-44602fac>
                           <svg
                             width="198"
@@ -1324,8 +1334,12 @@
                         strength="80"
                         class="planet planet-thorchain"
                         data-v-44602fac
+                        onclick="window.open('https://nicohnavarro-covid-tracker.web.app/');"
                       >
-                        <div data-v-44602fac>
+                      <div class="tooltip-box" id="tooltip-1">
+                        <span class="tooltip-text" >Covid Tracker with ReactJS</span>
+                      </div>
+                        <div data-v-44602fac id="planet-1">
                           <svg
                             width="230"
                             height="230"
@@ -1645,8 +1659,7 @@
                 Meet me everywhere.
                   </h2> 
               <p data-v-206e3d94="" class="subtitle tm-rf0 tm-rf1-m-up tm-lh-copy tm-measure-narrower">
-                Join a fast-growing community of developers and innovators connected all
-                over the world, building the new era of the internet.
+                  Get in touch, developers and innovators connected all over the world building the new era of the internet.📲
               </p> 
             </div> 
             <ul data-v-206e3d94="" class="list">
@@ -1657,10 +1670,6 @@
                       Personal Chat
                     </h4> <p data-v-206e3d94="" data-v-706ceafa="" class="desc tm-rf-1 tm-rf0-m-up tm-lh-copy tm-muted tm-measure-narrower tm-measure-narrow-l-up">
                       Ask me general questions on Telegram.
-                    </p></div></a></li><li data-v-206e3d94="" class="list-item"><a data-v-706ceafa="" data-v-206e3d94="" href="https://twitter.com/nicohnavarro" target="_blank" rel="noopener noreferrer" class="tm-link"><div data-v-206e3d94="" data-v-706ceafa="" class="icon"><svg data-v-206e3d94="" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-706ceafa=""><path d="M32 6.08945C30.8227 6.61158 29.5573 6.96431 28.2294 7.12299C29.5848 6.31069 30.6259 5.02441 31.116 3.49162C29.8474 4.24394 28.4424 4.79005 26.9469 5.08439C25.7494 3.80867 24.0432 3.01172 22.1549 3.01172C18.5293 3.01172 15.5896 5.95044 15.5896 9.57526C15.5896 10.0897 15.6477 10.5907 15.7597 11.0711C10.3033 10.7974 5.46588 8.1842 2.22779 4.21306C1.66267 5.18245 1.33883 6.30989 1.33883 7.51283C1.33883 9.7901 2.49787 11.7991 4.25947 12.9761C3.18331 12.9421 2.17099 12.6468 1.28587 12.1552C1.28512 12.1825 1.28512 12.2101 1.28512 12.2377C1.28512 15.4178 3.54817 18.0706 6.55153 18.6739C6.00065 18.824 5.42065 18.9041 4.82193 18.9041C4.39889 18.9041 3.98769 18.8629 3.58673 18.7864C4.42225 21.394 6.84673 23.2917 9.7197 23.3445C7.47281 25.105 4.64209 26.1544 1.56608 26.1544C1.03616 26.1544 0.513602 26.1232 0 26.0626C2.90545 27.9251 6.35633 29.0117 10.0639 29.0117C22.1396 29.0117 28.7432 19.0102 28.7432 10.3362C28.7432 10.0516 28.7368 9.76866 28.7242 9.48696C30.0068 8.56172 31.1197 7.40581 31.9999 6.08945H32Z" fill="currentColor"></path></svg></div> <div data-v-206e3d94="" data-v-706ceafa="" class="details"><h4 data-v-206e3d94="" data-v-706ceafa="" class="title tm-rf1 tm-bold tm-lh-title tm-link-external">
-                      Twitter
-                    </h4> <p data-v-206e3d94="" data-v-706ceafa="" class="desc tm-rf-1 tm-rf0-m-up tm-lh-copy tm-muted tm-measure-narrower tm-measure-narrow-l-up">
-                      Follow me @nicohnavarro to get in touch.
                     </p></div></a></li><li data-v-206e3d94="" class="list-item"><a data-v-706ceafa="" data-v-206e3d94="" href="https://www.linkedin.com/in/nicohnavarro/" target="_blank" rel="noopener noreferrer" class="tm-link"><div data-v-206e3d94="" data-v-706ceafa="" class="icon"><svg data-v-206e3d94="" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"fill="currentColor"></path></svg></div> <div data-v-206e3d94="" data-v-706ceafa="" class="details"><h4 data-v-206e3d94="" data-v-706ceafa="" class="title tm-rf1 tm-bold tm-lh-title tm-link-external">
                       LinkedIn
                     </h4> <p data-v-206e3d94="" data-v-706ceafa="" class="desc tm-rf-1 tm-rf0-m-up tm-lh-copy tm-muted tm-measure-narrower tm-measure-narrow-l-up">
@@ -1669,41 +1678,45 @@
                       Github
                     </h4> <p data-v-206e3d94="" data-v-706ceafa="" class="desc tm-rf-1 tm-rf0-m-up tm-lh-copy tm-muted tm-measure-narrower tm-measure-narrow-l-up">
                       Want to see my work and skills? checkout my Github.
+                    </p></div></a></li><li data-v-206e3d94="" class="list-item"><a data-v-706ceafa="" data-v-206e3d94="" href="https://twitter.com/nicohnavarro" target="_blank" rel="noopener noreferrer" class="tm-link"><div data-v-206e3d94="" data-v-706ceafa="" class="icon"><svg data-v-206e3d94="" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-706ceafa=""><path d="M32 6.08945C30.8227 6.61158 29.5573 6.96431 28.2294 7.12299C29.5848 6.31069 30.6259 5.02441 31.116 3.49162C29.8474 4.24394 28.4424 4.79005 26.9469 5.08439C25.7494 3.80867 24.0432 3.01172 22.1549 3.01172C18.5293 3.01172 15.5896 5.95044 15.5896 9.57526C15.5896 10.0897 15.6477 10.5907 15.7597 11.0711C10.3033 10.7974 5.46588 8.1842 2.22779 4.21306C1.66267 5.18245 1.33883 6.30989 1.33883 7.51283C1.33883 9.7901 2.49787 11.7991 4.25947 12.9761C3.18331 12.9421 2.17099 12.6468 1.28587 12.1552C1.28512 12.1825 1.28512 12.2101 1.28512 12.2377C1.28512 15.4178 3.54817 18.0706 6.55153 18.6739C6.00065 18.824 5.42065 18.9041 4.82193 18.9041C4.39889 18.9041 3.98769 18.8629 3.58673 18.7864C4.42225 21.394 6.84673 23.2917 9.7197 23.3445C7.47281 25.105 4.64209 26.1544 1.56608 26.1544C1.03616 26.1544 0.513602 26.1232 0 26.0626C2.90545 27.9251 6.35633 29.0117 10.0639 29.0117C22.1396 29.0117 28.7432 19.0102 28.7432 10.3362C28.7432 10.0516 28.7368 9.76866 28.7242 9.48696C30.0068 8.56172 31.1197 7.40581 31.9999 6.08945H32Z" fill="currentColor"></path></svg></div> <div data-v-206e3d94="" data-v-706ceafa="" class="details"><h4 data-v-206e3d94="" data-v-706ceafa="" class="title tm-rf1 tm-bold tm-lh-title tm-link-external">
+                      Twitter
+                    </h4> <p data-v-206e3d94="" data-v-706ceafa="" class="desc tm-rf-1 tm-rf0-m-up tm-lh-copy tm-muted tm-measure-narrower tm-measure-narrow-l-up">
+                      Follow me @nicohnavarro to get in touch.
                     </p></div></a></li></ul></div>
 
-              <div data-v-019c4815=""  data-v-03dc57ab="" class="tm-section tm-container tm-wrapper tm-grid-base"><img data-v-019c4815="" src="./img/3179773.png" class="bg"> <header id="portfolio" data-v-019c4815="" class="header"><h2 data-v-019c4815="" class="title tm-rf5 tm-bold tm-lh-title tm-title">
+              <div data-v-019c4815=""  data-v-03dc57ab="" class="tm-section tm-container tm-wrapper tm-grid-base">
+                <img data-v-019c4815="" src="./img/3179773.png" class="bg"> 
+                <header id="portfolio"  data-v-019c4815="" class="header">
+                  <h2 data-v-019c4815="" class="title tm-rf5 tm-bold tm-lh-title tm-title">
                 Applications Design
               </h2> <p data-v-019c4815="" class="subtitle offset tm-rf0 tm-rf1-m-up tm-lh-copy tm-measure-narrow">
-                Whether you’re a developer, token holder, or new to it all, there’s a
-                place for everyone in Cosmos.
+                There are lot of projects I would like to share to you but I have chosen the bests.🔥
               </p></header> <div data-v-019c4815="" class="cards"><div data-v-019c4815="" class="card card-intro"><a data-v-706ceafa="" data-v-019c4815="" href="#" class="tm-link"><div data-v-019c4815="" data-v-706ceafa="" strength="-5" type="depth" class="card-inner"><figure data-v-019c4815="" data-v-706ceafa="" strength="-10" tag="figure" class="card__graphics"><svg data-v-019c4815="" width="445" height="420" viewBox="0 0 445 420" fill="none" xmlns="http://www.w3.org/2000/svg" class="graphics" data-v-706ceafa=""><path d="M146.095 115.748C122.787 114.004 104.594 117.763 94.1189 126.312C88.8963 130.574 85.7242 135.917 84.6205 142.11C83.5152 148.312 84.478 155.408 87.6022 163.169C93.8556 178.703 108.389 195.958 129.098 212.333C149.797 228.7 175.509 243.272 202.39 253.867C229.273 264.462 255.855 270.5 278.161 271.094C300.495 271.689 317.21 266.793 325.975 257.319C334.686 247.903 335.223 234.287 327.207 218.337C319.187 202.381 303.082 185.075 281.249 169.024M173.67 104.25C131.902 90.1222 94.9861 85.0473 69.5872 89.8667C56.8944 92.2751 47.5553 97.0633 41.7647 103.845C35.9862 110.612 33.6825 119.433 35.1883 130.047C38.2085 151.337 56.3439 178.306 86.4899 206.053C116.611 233.777 156.64 260.362 199.324 280.981C242.011 301.601 284.495 314.875 319.073 318.417C336.363 320.187 351.076 319.463 362.677 316.415C374.278 313.367 382.721 308.007 387.555 300.538C392.384 293.075 393.507 283.666 390.956 272.764C388.403 261.856 382.178 249.488 372.362 236.178C352.731 209.559 320.119 181.043 280.414 155.815" stroke="white" stroke-opacity="0.1"></path> <path d="M171.594 329.617C291.19 384.008 410.932 368.277 439.047 294.483C467.161 220.688 393.001 116.773 273.406 62.3827C153.81 7.99228 34.0676 23.7227 5.95309 97.5175C-22.1614 171.312 51.9987 275.227 171.594 329.617Z" fill="url(#paint0_radial-516406)"></path> <g filter="url(#filter0_f-242002)"><path d="M91.5901 224.339C123.693 292.597 205.051 321.907 273.309 289.804C341.567 257.702 370.877 176.344 338.774 108.086C306.672 39.8278 225.313 10.5179 157.055 42.6204C88.7975 74.7228 59.4876 156.081 91.5901 224.339Z" fill="url(#paint1_radial-095304)"></path></g> <path d="M363.078 52.6067C363.078 40.8829 353.574 31.3789 341.85 31.3789C330.126 31.3789 320.622 40.8829 320.622 52.6067C320.622 64.3305 330.126 73.8346 341.85 73.8346C353.574 73.8346 363.078 64.3305 363.078 52.6067Z" fill="url(#paint2_radial-005726)"></path> <g strength="-16" tag="g"><path d="M323.075 382.79C364.651 397.934 410.631 376.507 425.775 334.932C440.92 293.356 419.493 247.376 377.917 232.232C336.342 217.087 290.361 238.514 275.217 280.09C260.073 321.665 281.5 367.646 323.075 382.79Z" fill="url(#paint3_radial-294757)"></path></g> <defs><filter id="filter0_f-242002" x="49.5713" y="0.601562" width="331.222" height="331.222" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood> <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend> <feGaussianBlur stdDeviation="14.5" result="effect1_foregroundBlur"></feGaussianBlur></filter> <radialGradient id="paint0_radial-516406" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(222.596 196.135) rotate(-155.545) scale(238.027 142.786)"><stop offset="0.0001" stop-color="#CD22F8"></stop> <stop offset="0.539562" stop-color="#C809F9" stop-opacity="0.3"></stop> <stop offset="1" stop-color="#420053" stop-opacity="0"></stop></radialGradient> <radialGradient id="paint1_radial-095304" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(215.183 166.215) rotate(64.8119) scale(136.579)"><stop offset="0.223958" stop-color="#A5FBFF"></stop> <stop offset="0.338542" stop-color="#A4DEFF"></stop> <stop offset="0.598958" stop-color="#CF36D2" stop-opacity="0.6"></stop> <stop offset="1" stop-color="#0113AB" stop-opacity="0"></stop></radialGradient> <radialGradient id="paint2_radial-005726" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(355.349 37.3296) rotate(128.712) scale(46.7826 57.133)"><stop offset="0.322917" stop-color="#151515"></stop> <stop offset="0.588542" stop-color="#430C44"></stop> <stop offset="0.866261" stop-color="#8D55B0"></stop></radialGradient> <radialGradient id="paint3_radial-294757" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(387.233 375.116) rotate(-121.273) scale(176.566 215.631)"><stop offset="0.473925" stop-color="#111111"></stop> <stop offset="0.682292" stop-color="#091534"></stop> <stop offset="0.866261" stop-color="#A24DD6"></stop></radialGradient></defs></svg></figure> <div data-v-019c4815="" data-v-706ceafa="" strength="-20" class="card__text"><div data-v-019c4815="" data-v-706ceafa="" class="card__overline tm-rf-1 tm-lh-title tm-overline tm-medium tm-muted">
-                        Learn
+                Web apps
                       </div> <h3 data-v-019c4815="" data-v-706ceafa="" class="card__title tm-rf2 tm-lh-title tm-bold tm-title">
-                        Welcome to Cosmos →
+                        differents projects →
                       </h3> <p data-v-019c4815="" data-v-706ceafa="" class="card__desc tm-rf-1 tm-rf0-m-up tm-lh-copy">
-                        Read the vision of Cosmos and learn about the powerful
-                        blockchain technology that makes it possible.
+                        Full deploy Web Apps with differents Frameworks and Languages
                       </p></div></div></a></div> <div data-v-019c4815="" class="card card-atom"><a data-v-019c4815="" href="#" class=""><div data-v-019c4815="" strength="-5" type="depth" class="card-inner"><figure data-v-019c4815="" class="card__graphics"><div data-v-019c4815="" class="graphics"><div data-v-019c4815="" strength="-15" class="coin"><img data-v-019c4815="" src="./img/c72b5e1.svg"></div> <div data-v-019c4815="" strength="-10" class="coin"><img data-v-019c4815="" src="./img/c72b5e1.svg"></div> <div data-v-019c4815="" strength="-25" class="coin"><img data-v-019c4815="" src="./img/c72b5e1.svg"></div></div></figure> <div data-v-019c4815="" strength="-20" class="card__text"><div data-v-019c4815="" class="card__overline tm-rf-1 tm-lh-title tm-overline tm-medium tm-muted">
-                        Stake
+                        React Native
                       </div> <h3 data-v-019c4815="" class="card__title tm-rf2 tm-lh-title tm-bold tm-title">
-                        Discover the ATOM →
+                        mobile apps →
                       </h3> <p data-v-019c4815="" class="card__desc tm-rf-1 tm-rf0-m-up tm-lh-copy">
-                        ATOM secures and governs the Cosmos Hub, the first blockchain in
-                        the Cosmos Network.
+                        Simple examples of React Native Applications
                       </p></div></div></a></div> <div data-v-019c4815="" class="card card-ecosystem"><a data-v-019c4815="" href="#" class=""><div data-v-019c4815="" strength="-5" type="depth" class="card-inner"><figure data-v-019c4815="" strength="-10" tag="figure" class="card__graphics"><div data-v-da5de208="" data-v-019c4815="" class="container graphics"><img data-v-da5de208="" src="./img/8d191ed.png" class="bg"> <svg data-v-da5de208="" width="577" height="615" viewBox="0 0 577 615" fill="none" xmlns="http://www.w3.org/2000/svg" class="fg"><g data-v-da5de208="" clip-path="url(#clip0-501690)"><circle data-v-da5de208="" r="78" transform="matrix(-1 0 0 1 153 42)" stroke="white" stroke-opacity="0.1" stroke-width="0.5"></circle> <circle data-v-da5de208="" r="78" transform="matrix(-1 0 0 1 388 273)" stroke="white" stroke-opacity="0.1" stroke-width="0.5"></circle> <circle data-v-da5de208="" r="118" transform="matrix(-1 0 0 1 153 42)" stroke="white" stroke-opacity="0.1" stroke-width="0.5"></circle> <circle data-v-da5de208="" r="118" transform="matrix(-1 0 0 1 388 273)" stroke="white" stroke-opacity="0.1" stroke-width="0.5"></circle> <circle data-v-da5de208="" r="159" transform="matrix(-1 0 0 1 153 42)" stroke="white" stroke-opacity="0.1" stroke-width="0.5"></circle> <circle data-v-da5de208="" r="159" transform="matrix(-1 0 0 1 388 273)" stroke="white" stroke-opacity="0.1" stroke-width="0.5"></circle> <g data-v-da5de208="" strength="15" tag="g"><circle data-v-da5de208="" cx="426.5" cy="159.5" r="18.5" fill="url(#paint1_radial-056938)"></circle></g> <g data-v-da5de208="" strength="20" tag="g">
                   filter="url(#filter0_i-962550)"&gt;
                   <circle data-v-da5de208="" cx="187" cy="337" r="130" fill="url(#paint0_radial-219333)"></circle></g></g> <defs data-v-da5de208=""><filter data-v-da5de208="" id="filter0_i-962550" x="23" y="207" width="294" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood data-v-da5de208="" flood-opacity="0" result="BackgroundImageFix"></feFlood> <feBlend data-v-da5de208="" mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend> <feColorMatrix data-v-da5de208="" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix> <feOffset data-v-da5de208="" dx="-34" dy="16"></feOffset> <feGaussianBlur data-v-da5de208="" stdDeviation="17.5"></feGaussianBlur> <feComposite data-v-da5de208="" in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite> <feColorMatrix data-v-da5de208="" type="matrix" values="0 0 0 0 1 0 0 0 0 0.580543 0 0 0 0 0.1 0 0 0 0.15 0"></feColorMatrix> <feBlend data-v-da5de208="" mode="normal" in2="shape" result="effect1_innerShadow"></feBlend></filter> <radialGradient data-v-da5de208="" id="paint0_radial-219333" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(215.417 458.557) rotate(-105.912) scale(286.475 348.708)"><stop data-v-da5de208="" offset="0.596806" stop-color="#181616"></stop> <stop data-v-da5de208="" offset="0.866261" stop-color="#103D66"></stop></radialGradient> <radialGradient data-v-da5de208="" id="paint1_radial-056938" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(433.813 147.539) rotate(121.715) scale(33.4912 30.686)"><stop data-v-da5de208="" offset="0.662512" stop-color="#452828"></stop> <stop data-v-da5de208="" offset="0.827187" stop-color="#622B2B"></stop> <stop data-v-da5de208="" offset="1" stop-color="#FFC672"></stop></radialGradient> <clipPath data-v-da5de208="" id="clip0-501690"><rect data-v-da5de208="" width="577" height="615" fill="white"></rect></clipPath></defs></svg></div></figure> <div data-v-019c4815="" strength="-20" class="card__text"><div data-v-019c4815="" class="card__overline tm-rf-1 tm-lh-title tm-overline tm-medium tm-muted">
-                        Discover
+                        
                       </div> <h3 data-v-019c4815="" class="card__title tm-rf2 tm-lh-title tm-bold tm-title">
-                        Explore the ecosystem →
+                        dApps →
                       </h3> <p data-v-019c4815="" class="card__desc tm-rf-1 tm-rf0-m-up tm-lh-copy">
-                        Browse the ever-expanding, diverse collection of apps, services,
-                        and tools built on Cosmos to date.
+                        Smart contracts with Solidity and React
                       </p></div></div></a></div></div></div>
         
         
             </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
